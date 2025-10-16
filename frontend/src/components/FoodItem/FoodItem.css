@@ -63,12 +63,25 @@
     right: 15px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    justify-content: center;
     padding: 6px;
     border-radius: 50px;
     background-color: white;
 }
 
+.food-item-counter-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.food-item-counter-content p{
+    width: 15px;
+    text-align: center;
+    flex-shrink: 0;
+}
 .food-item-counter img{
     width: 30px;
+    flex-shrink: 0;
 }
